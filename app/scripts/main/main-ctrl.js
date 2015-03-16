@@ -41,19 +41,19 @@ angular.module('famousAngularStarter')
     Engine.pipe($scope.enginePipe);
 
     $scope.gridElements = [
-      {backgroundColor: '#F00', index: 1},
-      {backgroundColor: '#FF0', index: 2},
-      {backgroundColor: '#0F0', index: 3},
-      {backgroundColor: '#0FF', index: 4},
-      {backgroundColor: '#00F', index: 5},
-      {backgroundColor: '#F0F', index: 6},
-      {backgroundColor: '#F00', index: 7},
-      {backgroundColor: '#FF0', index: 8},
-      {backgroundColor: '#0F0', index: 9},
-      {backgroundColor: '#0FF', index: 10},
-      {backgroundColor: '#00F', index: 11},
-      {backgroundColor: '#F0F', index: 12}
-    ]
+      {backgroundColor: '#F00', index: 1, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#FF0', index: 2, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#0F0', index: 3, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#0FF', index: 4, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#00F', index: 5, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#F0F', index: 6, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#F00', index: 7, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#FF0', index: 8, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#0F0', index: 9, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#0FF', index: 10, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#00F', index: 11, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'},
+      {backgroundColor: '#F0F', index: 12, imageUrl: 'http://lorempixel.com/output/cats-q-c-640-480-8.jpg'}
+    ];
 
     //$scope.enginePipe.on('click', function(){
     //  $scope.changeDimensions();
@@ -63,7 +63,7 @@ angular.module('famousAngularStarter')
     //})
 
     $scope.gridLayoutOptions = {
-      dimensions: [1, 3]
+      dimensions: [3, 3]
     }
 
     $scope.changeDimensions = function(){
